@@ -1,3 +1,7 @@
+<script>
+	let current = 'home';
+</script>
+
 <div class="app-sidebar sidebar-shadow">
 	<div class="app-header__logo">
 		<div class="logo-src"></div>
@@ -34,7 +38,8 @@
 			<ul class="vertical-nav-menu">
 				<li class="app-sidebar__heading">Dashboards</li>
 				<li>
-					<a href="index.html" class="mm-active">
+					<a href="/" class:mm-active="{current === 'home'}"
+							on:click="{() => current = 'home'}">
 					<i class="metismenu-icon pe-7s-rocket"></i>
 					Home
 					</a>
@@ -48,49 +53,57 @@
 					</a>
 					<ul>
 						<li>
-							<a href="elements-buttons-standard.html">
+							<a href="/planes" class:mm-active="{current === 'plan-planeta'}"
+							on:click="{() => current = 'plan-planeta'}">
 							<i class="metismenu-icon"></i>
 							Planeta Modelos
 							</a>
 						</li>
 						<li>
-							<a href="elements-dropdowns.html">
+							<a href="/planes" class:mm-active="{current === 'plan-platinum'}"
+							on:click="{() => current = 'plan-platinum'}">
 							<i class="metismenu-icon">
 							</i>Platinum
 							</a>
 						</li>
 						<li>
-							<a href="elements-icons.html">
+							<a href="/planes" class:mm-active="{current === 'plan-ladob'}"
+							on:click="{() => current = 'plan-ladob'}">
 							<i class="metismenu-icon">
 							</i>LadoB
 							</a>
 						</li>
 						<li>
-							<a href="elements-badges-labels.html">
+							<a href="/planes" class:mm-active="{current === 'plan-mqf'}"
+							on:click="{() => current = 'plan-mqf'}">
 							<i class="metismenu-icon">
 							</i>MasQueFutbol
 							</a>
 						</li>
 						<li>
-							<a href="elements-cards.html">
+							<a href="/planes" class:mm-active="{current === 'plan-pornotube'}"
+							on:click="{() => current = 'plan-pornotube'}">
 							<i class="metismenu-icon">
 							</i>PornoTube
 							</a>
 						</li>
 						<li>
-							<a href="elements-list-group.html">
+							<a href="/planes" class:mm-active="{current === 'plan-juegos'}"
+							on:click="{() => current = 'plan-juegos'}">
 							<i class="metismenu-icon">
 							</i>Ijuegos
 							</a>
 						</li>
 						<li>
-							<a href="elements-navigation.html">
+							<a href="/planes" class:mm-active="{current === 'plan-clubciencias'}"
+							on:click="{() => current = 'plan-clubciencias'}">
 							<i class="metismenu-icon">
 							</i>ClubCiencias
 							</a>
 						</li>
 						<li>
-							<a href="elements-utilities.html">
+							<a href="/planes" class:mm-active="{current === 'plan-gomusic'}"
+							on:click="{() => current = 'plan-gomusic'}">
 							<i class="metismenu-icon">
 							</i>GoMusic
 							</a>
@@ -105,91 +118,106 @@
 					</a>
 					<ul>
 						<li>
-							<a href="components-tabs.html">
+							<a href="/planes" class:mm-active="{current === 'plan-planetaPre'}"
+							on:click="{() => current = 'plan-planetaPre'}">
 							<i class="metismenu-icon">
 							</i>Planeta Modelos Pre
 							</a>
 						</li>
 						<li>
-							<a href="components-accordions.html">
+							<a href="/planes" class:mm-active="{current === 'plan-planetaPost'}"
+							on:click="{() => current = 'plan-planetaPost'}">
 							<i class="metismenu-icon">
 							</i>Planeta Modelos Post
 							</a>
 						</li>
 						<li>
-							<a href="components-notifications.html">
+							<a href="/planes" class:mm-active="{current === 'plan-latinPre'}"
+							on:click="{() => current = 'plan-latinPre'}">
 							<i class="metismenu-icon">
 							</i>LatinStrip Pre
 							</a>
 						</li>
 						<li>
-							<a href="components-modals.html">
+							<a href="/planes"class:mm-active="{current === 'plan-latinPost'}"
+							on:click="{() => current = 'plan-latinPost'}">
 							<i class="metismenu-icon">
 							</i>LatinStrip Post
 							</a>
 						</li>
 						<li>
-							<a href="components-progress-bar.html">
+							<a href="/planes" class:mm-active="{current === 'plan-ladobPre'}"
+							on:click="{() => current = 'plan-ladobPre'}">
 							<i class="metismenu-icon">
 							</i>LadoB Pre
 							</a>
 						</li>
 						<li>
-							<a href="components-tooltips-popovers.html">
+							<a href="/planes" class:mm-active="{current === 'plan-ladobPost'}"
+							on:click="{() => current = 'plan-ladobPost'}">
 							<i class="metismenu-icon">
 							</i>LadoB Post
 							</a>
 						</li>
 						<li>
-							<a href="components-carousel.html">
+							<a href="/planes" class:mm-active="{current === 'plan-hotzonePre'}"
+							on:click="{() => current = 'plan-hotzonePre'}">
 							<i class="metismenu-icon">
 							</i>HotZone Pre
 							</a>
 						</li>
 						<li>
-							<a href="components-calendar.html">
+							<a href="/planes" class:mm-active="{current === 'plan-hotzonePost'}"
+							on:click="{() => current = 'plan-hotzonePost'}">
 							<i class="metismenu-icon">
 							</i>HotZone Post
 							</a>
 						</li>
 						<li>
-							<a href="components-pagination.html">
+							<a href="/planes" class:mm-active="{current === 'plan-hottubePre'}"
+							on:click="{() => current = 'plan-hottubePre'}">
 							<i class="metismenu-icon">
 							</i>HotTube Pre
 							</a>
 						</li>
 						<li>
-							<a href="components-scrollable-elements.html">
+							<a href="/planes" class:mm-active="{current === 'plan-hottubePost'}"
+							on:click="{() => current = 'plan-hottubePost'}">
 							<i class="metismenu-icon">
 							</i>HotTube Post
 							</a>
 						</li>
 						<li>
-							<a href="components-maps.html">
+							<a href="/planes" class:mm-active="{current === 'plan-sexyPre'}"
+							on:click="{() => current = 'plan-sexyPre'}">
 							<i class="metismenu-icon">
 							</i>SexyTube Pre
 							</a>
 						</li>
                         <li>
-							<a href="components-maps.html">
+							<a href="/planes" class:mm-active="{current === 'plan-sexyPost'}"
+							on:click="{() => current = 'plan-sexyPost'}">
 							<i class="metismenu-icon">
 							</i>SexyTube Post
 							</a>
 						</li>
                         <li>
-							<a href="components-maps.html">
+							<a href="/planes" class:mm-active="{current === 'plan-juegosPre'}"
+							on:click="{() => current = 'plan-juegosPre'}">
 							<i class="metismenu-icon">
 							</i>Ijuegos Pre
 							</a>
 						</li>
                         <li>
-							<a href="components-maps.html">
+							<a href="/planes" class:mm-active="{current === 'plan-juegosPro'}"
+							on:click="{() => current = 'plan-juegosPro'}">
 							<i class="metismenu-icon">
 							</i>Ijuegos Post
 							</a>
 						</li>
                         <li>
-							<a href="components-maps.html">
+							<a href="/planes" class:mm-active="{current === 'plan-ganagana'}"
+							on:click="{() => current = 'plan-ganagana'}">
 							<i class="metismenu-icon">
 							</i>Entel Gana
 							</a>
@@ -197,26 +225,29 @@
 					</ul>
 				</li>
                 <li>
-					<a href="/">
+					<a href="/" >
 					<i class="metismenu-icon pe-7s-car"></i>
 					ClaroCl
 					<i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
 					</a>
 					<ul>
 						<li>
-							<a href="components-tabs.html">
+							<a href="/planes" class:mm-active="{current === 'plan-platinumclaro'}"
+							on:click="{() => current = 'plan-platinumclaro'}">
 							<i class="metismenu-icon">
 							</i>Platinum
 							</a>
 						</li>
 						<li>
-							<a href="components-accordions.html">
+							<a href="/planes" class:mm-active="{current === 'plan-hotzoneclaro'}"
+							on:click="{() => current = 'plan-hotzoneclaro'}">
 							<i class="metismenu-icon">
 							</i>HotZone
 							</a>
 						</li>
 						<li>
-							<a href="components-notifications.html">
+							<a href="/planes" class:mm-active="{current === 'plan-laroja'}"
+							on:click="{() => current = 'plan-laroja'}">
 							<i class="metismenu-icon">
 							</i>La Roja
 							</a>
@@ -231,14 +262,22 @@
 					</a>
 					<ul>
 						<li>
-							<a href="components-tabs.html">
+							<a href="/planes" class:mm-active="{current === 'plan-juegoswom'}"
+							on:click="{() => current = 'plan-juegoswom'}">
 							<i class="metismenu-icon">
 							</i>Juegos
 							</a>
 						</li>
+						<li>
+							<a href="/planes" class:mm-active="{current === 'plan-ladobwom'}"
+							on:click="{() => current = 'plan-ladobwom'}">
+							<i class="metismenu-icon">
+							</i>LadoB
+							</a>
+						</li>
 					</ul>
 				</li>
-				<li class="app-sidebar__heading">Servicios</li>
+				<li class="app-sidebar__heading">Estadisticas</li>
 				<li>
 					<a href="/">
 					<i class="metismenu-icon pe-7s-diamond"></i>
@@ -247,7 +286,7 @@
 					</a>
 					<ul>
 						<li>
-							<a href="elements-buttons-standard.html">
+							<a href="/estadisticas">
 							<i class="metismenu-icon"></i>
 							Planeta Modelos
 							</a>
