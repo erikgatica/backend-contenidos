@@ -23,8 +23,8 @@
 						</thead>
 						<tbody>
 							<tr role="row" class="odd">
-								<td class="sorting_1 dtr-control">Planeta modelos</td>
-								<td>Suscripción Videos PModelos</td>
+								<td class="sorting_1 dtr-control">Platinum</td>
+								<td>Suscripción Videos</td>
 								<td>
                                     <ul class="list-inline m-0">
                                         <li class="list-inline-item">
@@ -37,8 +37,8 @@
                                 </td>
 							</tr>
 							<tr role="row" class="even">
-								<td class="sorting_1 dtr-control">Platinum</td>
-								<td>Suscripción Videos PModelos</td>
+								<td class="sorting_1 dtr-control">HotZone</td>
+								<td>Suscripción Videos</td>
 								<td>
                                     <ul class="list-inline m-0">
                                         <li class="list-inline-item">
