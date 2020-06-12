@@ -7,7 +7,7 @@
     }
 </script>-->
 <script>
-    import TitlePage from '../../../components/TitlePage.svelte';
+	import TitlePage from '../../../components/TitlePage.svelte';
 </script>
 
 <TitlePage titulo="Planes EntelCL"/>
@@ -37,10 +37,14 @@
 								<td>
                                     <ul class="list-inline m-0">
                                         <li class="list-inline-item">
-                                            <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="fa fa-edit"></i></button>
+											<a href="/planes/entelcl/14">
+                                            	<button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="fa fa-edit"></i></button>
+											</a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="fa fa-trash"></i></button>
+											<a href="/">
+                                           		<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="fa fa-trash"></i></button>
+											</a>
                                         </li>
                                     </ul>
                                 </td>
@@ -51,10 +55,14 @@
 								<td>
                                     <ul class="list-inline m-0">
                                         <li class="list-inline-item">
-                                            <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="fa fa-edit"></i></button>
+											<a href="/planes/entelcl/17">
+                                            	<button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="fa fa-edit"></i></button>
+											</a>
                                         </li>
                                         <li class="list-inline-item">
-                                            <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="fa fa-trash"></i></button>
+											<a href="/">
+                                           		<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="fa fa-trash"></i></button>
+											</a>
                                         </li>
                                     </ul>
                                 </td>
